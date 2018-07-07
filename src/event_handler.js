@@ -23,7 +23,7 @@ async function eventHandler(store, data) {
             break;
 
         case 'remote-duck':
-            TrackPlayer.setVolume(data.ducking ? 0.5 : 1);
+            TrackPlayer.setVolume(data.ducking ? 0.2 : 1);
             break;
     }
 };
